@@ -9,10 +9,6 @@ class Counter
     @count += 1
   end
 
-  def self.create
-    @counter = Counter.new
-  end
-
   def self.instance
     @counter ||= Counter.new
   end
