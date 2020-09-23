@@ -6,7 +6,9 @@
     <title>Count</title>
   </head>
   <body>
-    <button id="increment">Increment</button>
+    <form action="/increment" method="post">
+      <input type="submit" value="Increment">
+    </form>
     <div id="count"><%= @counter.count %></div>
   </body>
 </html>
