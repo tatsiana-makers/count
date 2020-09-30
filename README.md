@@ -1,5 +1,5 @@
 # Description
-This is a small counting web app built in Ruby using Sinatra and Capybara.
+This is a counter web app built in Ruby using Sinatra and Capybara.
 
 # How to run the app
 1. Clone this repository
