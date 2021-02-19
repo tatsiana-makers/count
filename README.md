@@ -14,10 +14,10 @@ This is a counter web app built in Ruby using Sinatra and Capybara.
 3. Run `bundle` to install dependencies
 4. Run `rspec`
 
-# Questions to explore
-* Where are each of the three components of the MVC framework found in this application?
-* What parts of the code run when we run the app in our browser? You could test your assumption by adding `p` lines and checking that you see the output you expect.
-* What part of the code runs when we click the "Increment" button?
-* Can you add a "Decrement" button which decreases the count by 1 each time it is pressed?
-* Can you update the app to display the time that the count was last updated?
-* Can you add a "Reset" button which will put the count back to zero?
+
+
+Some nice to haves are:
+
+diagrams which represent the program. Perhaps in your planning you made class or sequence diagrams. These are nice to include as the reviewer will then have an idea of what the program looks like before diving into Ruby syntax
+descriptions of how you approached the challenge
+changes you would make if you had more time
