@@ -14,10 +14,6 @@ This is a counter web app built in Ruby using Sinatra and Capybara.
 3. Run `bundle` to install dependencies
 4. Run `rspec`
 
+![Screenshot of app with increment, decrement and reset buttons](https://github.com/hannahdesmond/count-sinatra/blob/master/sinatra%20app%203.png)
 
 
-Some nice to haves are:
-
-diagrams which represent the program. Perhaps in your planning you made class or sequence diagrams. These are nice to include as the reviewer will then have an idea of what the program looks like before diving into Ruby syntax
-descriptions of how you approached the challenge
-changes you would make if you had more time
