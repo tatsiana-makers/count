@@ -15,4 +15,32 @@ describe Counter do
       expect(counter.count).to eq 1
     end
   end
+
+  describe '#decrement' do
+    it 'takes 1 from the count' do
+      counter = Counter.new
+      counter.decrement
+      expect(counter.count).to eq -1
+    end
+  end
+
+  describe '#reset' do
+    it 'returns the count to 0' do
+      counter = Counter.new
+      counter.increment
+      counter.reset
+      expect(counter.count).to eq 0
+    end
+  end
+
+  describe '#time' do
+    it 'adds the time of last count' do
+      counter = Counter.new
+      counter.increment
+      time = counter.time
+      expect(counter.time).to eq time
+    end
+
+  end
+
 end
